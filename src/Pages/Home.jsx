@@ -1,6 +1,6 @@
 import React from 'react'
 import Skills from './Skills'
-import HomeAbout from './Homeabout'
+import HomeAbout from "./HomeAbout";
 import HomeProjects from './HomeProjects'
 import Section5 from './Section5'
 const Home = () => {
