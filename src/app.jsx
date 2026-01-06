@@ -5,7 +5,7 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Skills from "./Pages/Skills";
 import Navbar from "./components/Navbar";
-import "./app.css"
+import "./App.css"
 import Footer from "./Pages/Footer";
 const App = () => {
   return (
