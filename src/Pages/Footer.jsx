@@ -20,8 +20,8 @@ const Footer = () => {
         </div>
         <div className="footer-right">
           <h3>Contact</h3>
-          <p>Email: example@mail.com</p>
-          <p>Phone: +123 456 7890</p>
+          <p>Email: abhishehkushwaha.118@gmail.com</p>
+          <p>Phone: 6367697913</p>
           <div className="footer-socials">
             <a href="#" target="_blank">🌐</a>
             <a href="#" target="_blank">🐦</a>
