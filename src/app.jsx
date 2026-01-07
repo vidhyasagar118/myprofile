@@ -1,23 +1,16 @@
-import { Routes, Route } from "react-router-dom";
-import Home from "./Pages/Home";
-import Contact from "./Pages/Contact";
-import Skills from "./Pages/Skills";
 import Navbar from "./components/Navbar";
-import "./App.css"
+import Home from "./Pages/Home";
 import Footer from "./Pages/Footer";
-const App = () => {
+import "./App.css";
+
+function App() {
   return (
- <>
- <Navbar />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/skills" element={<Skills />} />
-    </Routes>
-    <Footer/>
+    <>
+      <Navbar />
+      <Home />
+      <Footer />
     </>
   );
-};
+}
 
 export default App;
- 

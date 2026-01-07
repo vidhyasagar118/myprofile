@@ -1,17 +1,17 @@
-import React from 'react'
-import Skills from './Skills'
 import HomeAbout from "./HomeAbout";
-import HomeProjects from './HomeProjects'
-import Section5 from './Section5'
+import HomeProjects from "./HomeProjects";
+import Skills from "./Skills";
+import Section5 from "./Section5";
+
 const Home = () => {
   return (
-    <div>
+    <>
       <HomeAbout />
       <HomeProjects />
       <Skills />
-      <Section5/>
-    </div>
-  )
-}
+      <Section5 />
+    </>
+  );
+};
 
-export default Home
+export default Home;
